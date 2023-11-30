@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato:ital,wght@0,300;1,400&family=Playfair+Display:wght@500&family=Poppins:wght@200&family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@300&display=swap");
+
+body {
+  background-color: mintcream;
+  font-family: "raleway" sans-serif;
+}
+
+nav {
+  display: flex;
+  margin: 2rem;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+nav a {
+  text-decoration: none;
+  color: rgb(29, 28, 28);
+  border: 1px solid blue;
+  padding: 5px;
+  border-radius: 2rem;
+}
+nav a:hover {
+  background-color: lightslategray;
+}
+#blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+article {
+  width: 60%;
+  margin-top: 2rem;
+  text-align: center;
+}
+h1 {
+  font-size: 2.5rem;
+}
+article a {
+  text-decoration: none;
+  color: steelblue;
+  font-size: 1.5rem;
+  margin-left: 3px;
+}
+article a:last-child {
+  color: red;
+}
+form > button {
+  border-radius: 10px;
+  border: 1px solid blue;
+  width: 16rem;
+  padding: 5px;
+  background-color: steelblue;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.del > p {
+  font-size: 1.5rem;
+}
+
+input,
+textarea {
+  display: block;
+  padding: 0.75rem;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  min-width: 600px;
+}
+label {
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 1rem 0;
+}
+.btn {
+  width: 100%;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-radius: 0.3rem;
+  color: white;
+  padding: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.btn-delete {
+  background-color: indianred;
+}
+.btn-submit {
+  background-color: steelblue;
+}
+article .image {
+  width: 300px;
+  height: 300px;
+}
+@media (max-width: 1024px) {
+  article {
+    width: 85%;
+  }
+}
